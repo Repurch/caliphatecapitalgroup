@@ -348,26 +348,60 @@ float: inherit;
 
 .mean-container .mean-nav{
 	background-color: #950d38;
+	
 }
 
 .mean-container a.meanmenu-reveal{
 		background-color: #950d38;
+		width: 15px;
+    height: 15px;
+    padding: 7px;
+		
 	}
 
 .mean-nav {
 		background-color: #950d38;
+		width: 15px;
+    height: 15px;
+    padding: 7px;
+		
 }
 
 .mean-container a.meanmenu-reveal ul li {
 		border-color: #950d38;
+		width: 20px;
+    height: 20px;
+    padding: 10px 10px 8px;
+		
 }
 
 .mean-container .mean-nav ul li a{
 	border-top: 1px solid #950d38;
 }
 
+
 i.fa.fa-search::before{
 	color: #950d38;
+	width: 10px;
+    height: 10px;
+    padding: 5px 5px;
+	
+}
+
+
+
+.owl-item {
+    background-color: rgba(0, 0, 0, 0.40);
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top:10px;
+    z-index: 1;
+}
+
+.hd-sec img{
+	width: 50px;
+
 }
 
 }
