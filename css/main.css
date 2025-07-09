@@ -61,6 +61,11 @@ vertical-align: baseline;
 line-height: 1.7;
 }
 
+
+i.fa.fa-search::before{
+	color: #950d38;
+}
+
 li a {
 	color: #f9b2c6;
 }
@@ -118,7 +123,7 @@ ul {
 }
 
 ::-moz-selection {
-  background: #0090cb;
+  background: #85044d;
   text-shadow: none;color:#fff
 }
 ::selection {
@@ -181,7 +186,7 @@ textarea:focus, input:focus{
 2.Scrollup
 ==============*/
 #scrollUp {
-	background: #1ab4f0 none repeat scroll 0 0;
+	background: #85044d none repeat scroll 0 0;
 	border-radius: 100%;
 	bottom: 5px;
 	color: #fff;
@@ -194,7 +199,7 @@ textarea:focus, input:focus{
 }
 #scrollUp:hover {
   opacity: 1;
-  color: #fff!important;background:#c9c00;
+  color: #fff!important;background:#85044d;
 }
 #scrollUp i {
 display: block;
@@ -255,7 +260,7 @@ text-align: center;
 line-height: 1.8;
 border-radius:100%}
 .soical-profile li a i:hover {
-	background: #1ab4f0;
+	background: #85044d;
 	color: #fff;
 }
 .office-number li {
@@ -336,7 +341,7 @@ color:#1ab4f0
 	visibility: hidden;
 	z-index: 99999;
 	transition: all 0.3s ease 0s;
-	border-top: 2px solid #1ab4f0;
+	border-top: 2px solid #85044d;
 }
 .main-menu ul ul li {
 float : none;
@@ -364,14 +369,14 @@ width : 220px;
 	border-bottom:0px;
 }
 .main-menu ul ul li a:hover {
-color:#222222;background:#1ab4f0;
+color:#222222;background:#85044d;
 }
 .main-menu ul ul ul {
 left : 100%;
 transition: all 0.3s ease 0s;
 opacity:0;
 border-top:0px;
-border-bottom:1px solid #1ab4f0
+border-bottom:1px solid #85044d;
 }
 .main-menu ul li:hover ul {	
  visibility: visible;
@@ -403,7 +408,7 @@ margin-left : 6px;
 	 content: "\f00d" !important; 
 }
 .site-search {
-	border: 2px solid #1ab4f0;
+	border: 2px solid #85044d;
 }
 .site-search i {
 	color: #1ab4f0;
@@ -413,7 +418,7 @@ margin-left : 6px;
 	display: inline-flex;
 	background: #fff;
 	padding: 18px 20px;
-	border-top: 2px solid #1ab4f0;
+	border-top: 2px solid #85044d;
 }
 .search-forum input[type="text"] {
 	padding: 10px;
@@ -421,7 +426,7 @@ margin-left : 6px;
 }
 .search-forum input[type="submit"] {
   padding: 10px;
-  background: #1ab4f0;
+  background: #85044d;
   color: #fff;
 }
 .search-forum {
@@ -558,7 +563,7 @@ height: 100%;
 	font-weight: 800;
 	line-height: 1.5;
 }
-.slider-text h1 > span{color:#1ab4f0;}
+.slider-text h1 > span{color:#85044d;}
 .slider-text p {
   color: #fff;
 }
@@ -566,7 +571,7 @@ height: 100%;
   display: inline-block;
 }
 .slider-text li a {
-	background: #1ab4f0;
+	background: #85044d;
 	color: #222222;
 	display: inline-block;
 	padding: 10px 26px;
@@ -765,7 +770,7 @@ transform: scale(1.2);transition: all 0.4s ease 0s;
 	width: 80px;
 	height: 80px;
 	margin-right: 10px;
-	border: 1px dashed #1ab4f0;
+	border: 1px dashed #85044d;
 	border-radius: 100%;
 	text-align: center;
 	line-height: 80px;

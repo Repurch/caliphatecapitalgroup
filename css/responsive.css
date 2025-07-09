@@ -214,6 +214,9 @@ font-size: 28px;
 	padding:7px 0px;
 	right: 100px;
 }
+.mobile-nav-menu{
+	background-color: #85044d;
+}
 .logo {
 	top: 12px;
 	padding-top:0px;
@@ -223,6 +226,8 @@ font-size: 28px;
 .header-left {
 	text-align: center;
 }
+
+
 .header-right-div {
 	text-align: center;
 }
@@ -237,6 +242,7 @@ font-size: 28px;
 	padding-left: 6px;
 	padding-right: 8px;
 	border-right:0px;
+	
 }
 .home-v2 .office-number {
 	display: none;
@@ -340,6 +346,30 @@ float: inherit;
 	font-size: 28px;;
 }
 
+.mean-container .mean-nav{
+	background-color: #950d38;
+}
+
+.mean-container a.meanmenu-reveal{
+		background-color: #950d38;
+	}
+
+.mean-nav {
+		background-color: #950d38;
+}
+
+.mean-container a.meanmenu-reveal ul li {
+		border-color: #950d38;
+}
+
+.mean-container .mean-nav ul li a{
+	border-top: 1px solid #950d38;
+}
+
+i.fa.fa-search::before{
+	color: #950d38;
+}
+
 }
 @media only screen and (min-width: 0px) and (max-width: 560px) {
 .project-list-box {
@@ -363,6 +393,7 @@ float: inherit;
 .commentar-sec img {
 	float: inherit;
 	margin-bottom: 20px;
+	
 }
 .post-commenter-author .media-left {
 	display: inherit;
@@ -395,14 +426,17 @@ float: inherit;
 @media only screen and (min-width: 0px) and (max-width: 390px) {
 .sec-title h1 {
   font-size:28px;
+  
 }
 .feature-item  .media-body, .media-left, .media-right {
 	display: inline-block;
 	width: 100%;
+	
 }
+
+
 
 }
 @media only screen and (min-width: 0px) and (max-width: 359px) {
 	
-
 }
