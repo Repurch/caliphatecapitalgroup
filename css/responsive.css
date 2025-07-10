@@ -353,6 +353,7 @@ float: inherit;
 
 .mean-container a.meanmenu-reveal{
 		background-color:#fff;
+		color: #950d38;
 		width: 10px;
     height: 10px;
     margin: -70px 2px;
@@ -360,7 +361,11 @@ float: inherit;
 	border: none;
 	text-align: center;
 		
-	}
+}
+
+.mean-container a.meanmenu-reveal .close{
+	background-color: #950d38;
+}
 
 .mean-container a.meanmenu-reveal span{
 background-color: #950d38;
